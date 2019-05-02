@@ -1,0 +1,42 @@
+
+* {
+box-sizing: border-box;
+}
+
+.cont {
+ width: 1200px;
+ height: 600px;
+ margin: auto;
+ background-color: #FDDE7E;
+ display:flex;
+ justify-content: space-around;
+ align-items:center;
+}
+
+.wrap {
+width: 360px;
+height: 450px;
+background-color: #FFFFFF;
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+.wrap:hover {
+   height: 500px;
+ }
+
+ .price, img, .title, .text {
+display:flex;
+flex-flow: column wrap;
+justify-content: space-around;
+align-content: space-around;
+margin: auto;
+}
+ .price{
+ font: 1.5em Myriad ;
+ color: green;
+ }
+p {
+text-align: center;
+}
